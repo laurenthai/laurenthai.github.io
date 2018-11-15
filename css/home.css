@@ -1,10 +1,14 @@
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 /*   background-image: url("https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/29571041_10204584972419543_6524322479799874756_n.jpg?_nc_cat=109&_nc_ht=scontent-lax3-2.xx&oh=51ac1b8c1e33b764ea7c274e7ae619f5&oe=5C42A513"); */
   background-position: center;
   background-size: cover;
   background-color: #F2F2F2;
-  font-weight: 800;
   margin-top: 0;
   margin-bottom: 50px;
   margin-left: 0;
@@ -85,7 +89,7 @@ nav a:hover::before {
 #header {
   text-align: center;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 5px;
   color: #444;
   
@@ -101,7 +105,7 @@ nav a:hover::before {
 #subheader {
   text-align: center;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #444;
   
@@ -122,6 +126,7 @@ nav a:hover::before {
   color: #444;
   text-align: center;
   font-size: 20px;
+  font-weight: 300;
   padding: 15px;
   width: 200px;
   transition: all 0.5s;
@@ -130,6 +135,7 @@ nav a:hover::before {
   
   margin-left: 70px;
   margin-top: 50px;
+  margin-bottom: 120px;
   float:left;
   opacity: 1;
   
@@ -165,7 +171,38 @@ nav a:hover::before {
   right: 0;
 }
 
-a:link {
-  text-align: center;
+#container2 {
+  width:100%;
+  margin-bottom: 50px;
+}
+
+#resume {
+  font-size: 20px;
+  float: left;
+  width: 100px;
+}
+
+#linkedin {
+  font-size: 20px;
+  float: right;
+  width: 100px;
+}
+
+#email {
+  font-size: 20px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+
+a.par {
+  color: #444;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a.par:hover {
+  color: #000;
+  cursor: pointer;
   text-decoration: none;
 }
