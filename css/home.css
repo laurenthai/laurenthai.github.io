@@ -24,7 +24,6 @@ body {
 .navtainer {
   width: 90%;
   margin: 0 auto;
-  position:sticky;
   letter-spacing:2px;
 }
 
@@ -171,27 +170,42 @@ nav a:hover::before {
   right: 0;
 }
 
-#container2 {
-  width:100%;
+.container2 {
+  width: 600px;
+  display: flex;
+  margin:auto;
+  font-weight: 300;
+  font-size: 20px;
+  width:90%;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 #resume {
-  font-size: 20px;
   float: left;
   width: 100px;
+  margin:auto;
 }
 
 #linkedin {
-  font-size: 20px;
   float: right;
   width: 100px;
+  margin:auto;
 }
 
 #email {
-  font-size: 20px;
   margin: 0 auto;
   width: 100px;
+}
+
+a {
+  color: #4595AE;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 
@@ -202,7 +216,7 @@ a.par {
 }
 
 a.par:hover {
-  color: #000;
+  opacity: 0.7;
   cursor: pointer;
   text-decoration: none;
 }
