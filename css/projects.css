@@ -7,12 +7,6 @@ body {
   margin-right: 0;
 }
 
-.container{
-  width:600px;
-  margin: 0 auto;
-  padding-top: 50px;
-}
-
 .navtainer {
   width: 90%;
   margin: 0 auto;
@@ -77,11 +71,24 @@ nav a:hover::before {
   width: 100%;
 }
 
+.container{
+  width:600px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
 
 #header {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 40px;
+  text-align:center;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: 5px;
+  padding-bottom: 30px;
+  color: #444;
+}
+
+#rectangle {
+  height: 5px;
+  width: 100px;
+  background-color: #c1e5f0;
+  margin: auto;
 }
